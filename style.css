@@ -35,6 +35,9 @@ main {
     .main {
         grid-template-columns: 1fr 1fr;
     }
+    main{
+        height: auto;
+    }
     .info_box:last-child { width: 191.6%; margin-top: 1rem;}
 }
 @media screen and (max-width : 425px){
